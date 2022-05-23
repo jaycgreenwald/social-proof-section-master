@@ -40,21 +40,21 @@ body {
 /******************/
 
 .social-proof-page {
-    padding: 80px 30px;
+    padding: 5rem 1.9rem;
     margin: 0 auto;
 }
 
 .headline {
     margin: auto;
     text-align: center;
-    width: 326px;
+    width: 20.4rem;
 }
 
 .headline__title {
     font-size: 2.4rem;
     font-weight: 700;
     color: var(--very-dark-magenta);
-    padding: 0 45px;
+    padding: 0 2.8rem;
     line-height: .9;
     letter-spacing: -1px;
 }
@@ -64,7 +64,7 @@ body {
     font-weight: 400;
     color: var(--dark-grayish-magenta);
     line-height: 1.3;
-    padding: 24px 0 32px 0;
+    padding: 1.5rem .2rem 2rem .2rem;
 }
 
 /* RATINGS SECTION */
@@ -76,15 +76,16 @@ body {
 }
 
 .ratings__card {
-    margin: 9px 0;
-    width: 326px;
+    margin: .6rem 0;
+    width: 20.4rem;
     background-color: var(--light-grayish-magenta);
     border-radius: 10px;
-    padding: 16px 0 13px 0;
+    /* padding: 1rem 0 .8rem 0; */
+    padding: 1rem 0 1rem 0;
 }
 
 .ratings__card:last-child {
-    margin-bottom: 37px;
+    margin-bottom: 2.3rem;
 }
 
 .ratings__stars {
@@ -92,10 +93,12 @@ body {
     justify-content: center;
     list-style-type: none;
     padding-bottom: 7px;
+    padding-right: 1rem;
 }
 
 .ratings__star {
-    padding: 0 4px;
+    /* padding: 0 4px; */
+    padding: 0 .25rem;
 }
 
 .ratings__info {
@@ -105,7 +108,7 @@ body {
     text-align: center;
 }
 
-/* reviews SECTION */
+/* REVIEWS SECTION */
 .reviews {
     display: flex;
     flex-direction: column;
@@ -113,28 +116,28 @@ body {
 }
 
 .reviews__card {
-    margin: 8px 0;
-    max-width: 326px;
+    margin: .5rem 0;
+    max-width: 20.4rem;
     background-color: var(--very-dark-magenta);
     border-radius: 10px;
-    padding: 39px 31px 37px 31px;
+    padding: 2.4rem 1.9rem 2.3rem 1.9rem;
 }
 
 .reviews__profile {
     display: flex;
-    padding-bottom: 30px;
+    padding-bottom: 1.9rem;
 }
 
 .reviews__photo {
     border-radius: 50%;
-    width: 40px;
+    width: 2.5rem;
 }
 
 .reviews__info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 24px;
+    padding-left: 1.6rem;
 }
 
 .reviews__name {
@@ -181,12 +184,13 @@ body {
     }
 
     .social-proof-page {
-        max-width: 1153px;
+        /* max-width: 1153px; */
+        max-width: 72rem;
         height: 100vh;
         display: grid;
         grid-template-columns: 51% 49%;
         grid-template-rows: 47% 35%;
-        padding: 80px 20px;
+        padding: 5rem 1.25rem;
     }
     
     .headline {
@@ -197,7 +201,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-right: 123px;
+        padding-right: 7.7rem;
     }
     
     .headline__title {
@@ -205,9 +209,9 @@ body {
         padding: 0;
     }
     
-    /* .headline__text {
-        padding: 24px 0 27px 0;
-    } */
+    .headline__text {
+        padding: 1.5rem 0 2rem 0;
+    }
 
     .ratings {
         grid-column-start: 2;
@@ -218,12 +222,13 @@ body {
     }
     
     .ratings__card {
-        margin: 9px 0;
-        width: 445px;
+        margin: .6rem 0;
+        /* width: 445px; */
+        width: 27.8rem;
         background-color: var(--light-grayish-magenta);
         border-radius: 10px;
-        padding: 16px 0 13px 0;
         display: flex;
+        justify-content: center;
         align-items: center;
     }
     
@@ -235,10 +240,6 @@ body {
         align-self: flex-end;
     }
     
-    .ratings__stars {
-        padding: 0 29px 0 27px;
-    }
-    
     .reviews {
         grid-row-start: 2;
         grid-column-start: 1;
@@ -246,15 +247,17 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        max-width: 1153px;
+        /* max-width: 1153px; */
+        max-width: 72rem;
     }
     
     .reviews__card {
         margin: 0;
-        max-width: 350px;
+        /* max-width: 350px; */
+        max-width: 21.9rem;
         background-color: var(--very-dark-magenta);
         border-radius: 10px;
-        padding: 39px 31px 41px 31px;
+        padding: 2.44rem 1.9rem 2.6rem 1.9rem;
     }
     
     .reviews__card:nth-child(1) {
@@ -271,7 +274,8 @@ body {
     @media screen and (min-width: 950px) and (max-width: 1160px) {
     
         .social-proof-page {
-            max-width: 1160px;
+            /* max-width: 1160px; */
+            max-width: 72.5rem;
             grid-template-columns: 1fr;
             grid-template-rows: auto 1fr 1fr;
         }
@@ -293,7 +297,8 @@ body {
         }
     
         .reviews__card {
-            max-width: 275px;
+            /* max-width: 275px; */
+            max-width: 17.2rem;
         }
 
     }
